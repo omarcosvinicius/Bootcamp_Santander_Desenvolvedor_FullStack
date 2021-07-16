@@ -18,3 +18,5 @@ join cliente_transacoes
 	on cliente_transacoes.cliente_numero = cliente.numero
 join tipo_transacao
 	on cliente_transacoes.tipo_transacao_id = tipo_transacao.id;
+
+teste
